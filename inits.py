@@ -1,4 +1,4 @@
-def init_f(modelcode):
+def init_f(modelcode, nsubs):
     res = 0
     if modelcode == 'ddmcode':
         res = {'mu_pr': [1, 1, 0, 0, 0, 0, -1],
